@@ -4,7 +4,7 @@ name: Update Leaderboard
 on:
   schedule:
     # Run daily
-    - cron:  '0 0 * * *'
+    - cron:  '0 * * * *'
   issue_comment:
     types: [created, edited]
 
@@ -23,5 +23,5 @@ jobs:
           pip install PyGithub
       - name: Update README
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Use the secret here
         run: python .github/scripts/update_readme.py
