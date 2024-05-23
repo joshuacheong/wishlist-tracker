@@ -1,5 +1,6 @@
 from github import Github
 import re
+import os  # Import os module to access environment variables
 
 # Initialize GitHub client
 g = Github(os.getenv('GH_TOKEN'))  # Use the token securely
