@@ -23,5 +23,5 @@ jobs:
           pip install PyGithub
       - name: Update README
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Use the secret here
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}  # Use the secret here
         run: python .github/scripts/update_readme.py

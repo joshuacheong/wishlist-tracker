@@ -2,7 +2,7 @@ from github import Github
 import re
 
 # Initialize GitHub client
-g = Github(os.getenv('GITHUB_TOKEN'))  # Use the token securely
+g = Github(os.getenv('GH_TOKEN'))  # Use the token securely
 
 # Regex pattern to match wish format
 pattern = re.compile(r"I wish for (https://github\.com/[a-zA-Z0-9_.-]+/[a-zA-Z0-9_.-]+/issues/\d+)")
