@@ -8,6 +8,9 @@ g = Github(os.getenv('GH_TOKEN'))  # Use the token securely
 # Regex pattern to match wish format
 pattern = re.compile(r"I wish for (https://github\.com/[a-zA-Z0-9_.-]+/[a-zA-Z0-9_.-]+/issues/\d+)")
 
+# Define the regular expression pattern for the leaderboard section
+leaderboard_section_pattern = re.compile(r"(<!-- LEADERBOARD:START -->).*?(<!-- LEADERBOARD:END -->)", re.DOTALL)
+
 # Your repo
 repo = g.get_repo("paritytech/polkadot-sdk")
 
