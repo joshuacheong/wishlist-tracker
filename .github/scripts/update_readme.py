@@ -40,4 +40,11 @@ for wish, count in sorted_wishes:
 readme = repo.get_contents("README.md")
 current_readme_content = readme.decoded_content.decode()
 new_readme_content = leaderboard_section_pattern.sub(f"<!-- LEADERBOARD:START -->\n{md_table}<!-- LEADERBOARD:END -->", current_readme_content)
-repo.update_file(readme.path, "Update leaderboard", new_readme_content, readme.sha)
+
+print("Readme Path:", readme.path)
+print("Readme SHA:", readme.sha)
+
+try:
+    repo.update_file(readme.path, "Update leaderboard", new_readme_content, readme.sha)
+except Exception as e:
+    print("Error updating file:", e)
