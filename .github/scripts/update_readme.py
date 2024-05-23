@@ -14,6 +14,9 @@ leaderboard_section_pattern = re.compile(r"(<!-- LEADERBOARD:START -->).*?(<!-- 
 # Your repo
 repo = g.get_repo("paritytech/polkadot-sdk")
 
+# Tracker repo
+tracker_repo = g.get_repo("joshuacheong/wishlist-tracker")
+
 # Get the issue where wishes are collected
 issue_number = 3900  # Change this to your issue number
 issue = repo.get_issue(number=issue_number)
@@ -37,7 +40,7 @@ for wish, count in sorted_wishes:
     md_table += f"| {wish} | {count} |\n"
 
 # Fetch and update README.md
-readme = repo.get_contents("README.md")
+readme = tracker_repo.get_contents("README.md")
 current_readme_content = readme.decoded_content.decode()
 new_readme_content = leaderboard_section_pattern.sub(f"<!-- LEADERBOARD:START -->\n{md_table}<!-- LEADERBOARD:END -->", current_readme_content)
 
