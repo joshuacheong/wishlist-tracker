@@ -6,7 +6,7 @@ import os
 g = Github(os.getenv('GH_TOKEN'))  # Use the token securely
 
 # Regex pattern to match wish format
-pattern = re.compile(r"I wish for (https://github\.com/[a-zA-Z0-9_.-]+/[a-zA-Z0-9_.-]+/issues/\d+)")
+pattern = re.compile(r"I wish for (https://github\.com/([a-zA-Z0-9_.-]+)/([a-zA-Z0-9_.-]+)/issues/(\d+))")
 
 # Define the regular expression pattern for the leaderboard section
 leaderboard_section_pattern = re.compile(r"(<!-- LEADERBOARD:START -->).*?(<!-- LEADERBOARD:END -->)", re.DOTALL)
@@ -23,23 +23,31 @@ issue = repo.get_issue(number=issue_number)
 
 # Parse comments for wishes and count likes
 wishes = {}
+issue_details = {}
 for comment in issue.get_comments():
-    urls = pattern.findall(comment.body)
-    for url in urls:
+    matches = pattern.findall(comment.body)
+    for match in matches:
+        url, org, repo_name, issue_id = match
+        issue_key = (url, org, repo_name, issue_id)
         # Get the count of thumbs-up reactions for the comment
         thumbs_up_count = sum(1 for reaction in comment.get_reactions() if reaction.content == '+1')
-        if url in wishes:
-            wishes[url] += thumbs_up_count
+        if issue_key in wishes:
+            wishes[issue_key] += thumbs_up_count
         else:
-            wishes[url] = thumbs_up_count
+            wishes[issue_key] = thumbs_up_count
+            # Fetch the issue to get the title
+            temp_repo = g.get_repo(f"{org}/{repo_name}")
+            temp_issue = temp_repo.get_issue(int(issue_id))
+            issue_details[url] = temp_issue.title  # or temp_issue.body for more detailed summary
 
 # Sort wishes by count
 sorted_wishes = sorted(wishes.items(), key=lambda x: x[1], reverse=True)
 
 # Prepare markdown table
-md_table = "| Feature Request | Votes |\n| --- | --- |\n"
-for wish, count in sorted_wishes:
-    md_table += f"| {wish} | {count} |\n"
+md_table = "| Feature Request | Summary | Votes |\n| --- | --- | --- |\n"
+for (url, _, _, _), count in sorted_wishes:
+    summary = issue_details.get(url, "No summary available")
+    md_table += f"| {url} | {summary} | {count} |\n"
 
 # Fetch and update README.md
 readme = tracker_repo.get_contents("README.md")
