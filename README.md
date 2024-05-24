@@ -12,6 +12,15 @@ Substitute `<issue-url>` with the URL of the GitHub issue (it can be from any re
 
 ## Most Wished Features Leaderboard
 <!-- LEADERBOARD:START -->
+| Feature Request | Votes |
+| --- | --- |
+| https://github.com/paritytech/polkadot-sdk/issues/3594 | 4 |
+| https://github.com/paritytech/polkadot-sdk/issues/328 | 2 |
+| https://github.com/paritytech/polkadot-sdk/issues/5 | 1 |
+| https://github.com/paritytech/polkadot-sdk/issues/133 | 1 |
+| https://github.com/paritytech/polkadot-sdk/issues/3581 | 1 |
+| https://github.com/paseo-network/paseo-action-submission/issues/103 | 1 |
+| https://github.com/paritytech/polkadot-sdk/issues/4284 | 0 |
 <!-- LEADERBOARD:END -->
 
 ## Contributing
