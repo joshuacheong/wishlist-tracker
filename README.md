@@ -1,14 +1,6 @@
 # wishlist-tracker
 
-## Welcome to Polkadot SDK Enhancements Tracker
-
-This repository serves as a central hub for tracking community-driven feature requests for the Polkadot SDK. Our goal is to prioritize development based on the collective input of our users.
-
-## How to Make a Wish
-To make a wish, please comment on [Issue #3900](https://github.com/paritytech/polkadot-sdk/issues/3900) with the format:
-I wish for `<issue-url>`
-
-Substitute `<issue-url>` with the URL of the GitHub issue (it can be from any repository) that describes the feature you desire.
+This repository serves as a central hub for tracking community-driven feature requests for the Polkadot SDK. Our goal is to prioritize development based on the collective input of developers and users on Polkadot SDK.
 
 ## Developer Wishlist Leaderboard
 <!-- LEADERBOARD_DEV:START -->
@@ -41,8 +33,14 @@ Substitute `<issue-url>` with the URL of the GitHub issue (it can be from any re
 | https://github.com/paritytech/polkadot-sdk/issues/3977 | Change identity raw data values to be generic Get<u32> | 0 |
 <!-- LEADERBOARD_USER:END -->
 
-## Contributing
-We welcome contributions from everyone. Before contributing, please read our [CONTRIBUTING](CONTRIBUTING.md) guide.
+## How to Create a New Wish
+To make a wish, please comment on [#3900 if you are a developer](https://github.com/paritytech/polkadot-sdk/issues/3900) or [#3901 if you are a User](https://github.com/paritytech/polkadot-sdk/issues/3901) with the format:
+I wish for `<issue-url>`
+
+Substitute `<issue-url>` with the URL of the GitHub issue that describes the feature you desire. If that issue doesn't exist [submit an issue](https://github.com/paritytech/polkadot-sdk/issues) to then add it to the wishlist.
+
+## How to Vote on a Wish
+Simply head over to [#3900 if you are a developer](https://github.com/paritytech/polkadot-sdk/issues/3900) or [#3901 if you are a User](https://github.com/paritytech/polkadot-sdk/issues/3901), and just add a thumbs up 'like' emoji to the feature you resonate with!
 
 ## Support or Contact
 Having trouble with our SDK? Check out our [documentation](https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/) or [submit an issue](https://github.com/paritytech/polkadot-sdk/issues) and we’ll help you sort it out.
