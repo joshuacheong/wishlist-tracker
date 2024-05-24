@@ -46,6 +46,7 @@ new_readme_content = leaderboard_section_pattern.sub(f"<!-- LEADERBOARD:START --
 
 print("sorted_wishes (to read) contents:", sorted_wishes)
 print("Readme (to edit) contents:", current_readme_content)
+print("new_readme_content (edited) contents:", new_readme_content)
 print("Readme SHA:", readme.sha)
 print("Readme Path:", readme.path)
 
