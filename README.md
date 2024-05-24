@@ -4,17 +4,6 @@ This repository serves as a central hub for tracking community-driven feature re
 
 ## Developer Wishlist Leaderboard
 
-<a href="https://github.com/paritytech/polkadot-sdk/issues/3900">
-  <img src="https://img.shields.io/badge/Submit%20Wish-e6007a" alt="Submit Wish" align="left"> 
-</a>
-<a href="https://github.com/paritytech/polkadot-sdk/issues/new/choose">
-  <img src="https://img.shields.io/badge/New%20Issue-black" alt="New Issue" align="left">
-</a>
-<a href="https://github.com/paritytech/polkadot-sdk/issues/3900">
-  <img src="https://img.shields.io/badge/Vote-e6007a" alt="Vote"  align="right"> 
-</a>
-<br><br>
-
 <!-- LEADERBOARD_DEV:START -->
 | Feature Request | Summary | Votes |
 | --- | --- | --- |
@@ -27,18 +16,18 @@ This repository serves as a central hub for tracking community-driven feature re
 | https://github.com/paritytech/polkadot-sdk/issues/4284 | XCM: Remove `require_weight_at_most` from Transact | 0 |
 <!-- LEADERBOARD_DEV:END -->
 
-## User Wishlist Leaderboard
-
-<a href="https://github.com/paritytech/polkadot-sdk/issues/3901">
+<a href="https://github.com/paritytech/polkadot-sdk/issues/3900">
   <img src="https://img.shields.io/badge/Submit%20Wish-e6007a" alt="Submit Wish" align="left"> 
 </a>
 <a href="https://github.com/paritytech/polkadot-sdk/issues/new/choose">
   <img src="https://img.shields.io/badge/New%20Issue-black" alt="New Issue" align="left">
 </a>
-<a href="https://github.com/paritytech/polkadot-sdk/issues/3901">
+<a href="https://github.com/paritytech/polkadot-sdk/issues/3900">
   <img src="https://img.shields.io/badge/Vote-e6007a" alt="Vote"  align="right"> 
 </a>
 <br><br>
+
+## User Wishlist Leaderboard
 
 <!-- LEADERBOARD_USER:START -->
 | Feature Request | Summary | Votes |
@@ -56,6 +45,17 @@ This repository serves as a central hub for tracking community-driven feature re
 | https://github.com/Phala-Network/website-nextjs/issues/78 | Uncaught Error: Expected a valid key to convert, with length 1, 2, 4, 8, 32, 33 | 0 |
 | https://github.com/paritytech/polkadot-sdk/issues/3977 | Change identity raw data values to be generic Get<u32> | 0 |
 <!-- LEADERBOARD_USER:END -->
+
+<a href="https://github.com/paritytech/polkadot-sdk/issues/3901">
+  <img src="https://img.shields.io/badge/Submit%20Wish-e6007a" alt="Submit Wish" align="left"> 
+</a>
+<a href="https://github.com/paritytech/polkadot-sdk/issues/new/choose">
+  <img src="https://img.shields.io/badge/New%20Issue-black" alt="New Issue" align="left">
+</a>
+<a href="https://github.com/paritytech/polkadot-sdk/issues/3901">
+  <img src="https://img.shields.io/badge/Vote-e6007a" alt="Vote"  align="right"> 
+</a>
+<br><br>
 
 ## Make a New Wish
 To make a wish, please comment on [#3900 if you are a developer](https://github.com/paritytech/polkadot-sdk/issues/3900) or [#3901 if you are a User](https://github.com/paritytech/polkadot-sdk/issues/3901) with the format:
