@@ -6,7 +6,7 @@ This repository serves as a central hub for tracking community-driven feature re
 
 ## How to Make a Wish
 To make a wish, please comment on [Issue #3900](https://github.com/paritytech/polkadot-sdk/issues/3900) with the format:
-I wish for <issue-url>
+I wish for `<issue-url>`
 
 Substitute `<issue-url>` with the URL of the GitHub issue (it can be from any repository) that describes the feature you desire.
 
