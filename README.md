@@ -1,6 +1,6 @@
 # wishlist-tracker
 
-This repository serves as a central hub for tracking community-driven feature requests for the Polkadot SDK. Our goal is to prioritize development based on the collective input of developers and users on Polkadot SDK.
+This repository serves as a central hub for tracking community-driven feature requests for the Polkadot SDK. Our goal is to prioritize development based on the collective input of developers and users on Polkadot SDK. Refreshes hourly.
 
 ## Developer Wishlist Leaderboard
 
