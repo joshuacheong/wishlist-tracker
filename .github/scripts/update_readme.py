@@ -58,3 +58,5 @@ try:
     tracker_repo.update_file(readme.path, "Update leaderboard", new_readme_content, readme.sha)
 except Exception as e:
     print("Error updating file:", e)
+    if hasattr(e, 'data'):
+        print("Error Data:", e.data)  # Printing more detailed error information
