@@ -10,18 +10,13 @@ I wish for `<issue-url>`
 
 Substitute `<issue-url>` with the URL of the GitHub issue (it can be from any repository) that describes the feature you desire.
 
-## Most Wished Features Leaderboard
-<!-- LEADERBOARD:START -->
-| Feature Request | Summary | Votes |
-| --- | --- | --- |
-| https://github.com/paritytech/polkadot-sdk/issues/3594 | Subscribe-able runtime apis | 4 |
-| https://github.com/paritytech/polkadot-sdk/issues/328 | Vision: Storage Deposits to be Ergonomic and Automatic | 2 |
-| https://github.com/paritytech/polkadot-sdk/issues/5 | Vision for cleaner substrate-node's developer-facing interface | 1 |
-| https://github.com/paritytech/polkadot-sdk/issues/133 | Vision: Repository reorganization | 1 |
-| https://github.com/paritytech/polkadot-sdk/issues/3581 | [FRAME] Warn when using default `SubstrateWeights` in production | 1 |
-| https://github.com/paseo-network/paseo-action-submission/issues/103 | Poor DevEx | 1 |
-| https://github.com/paritytech/polkadot-sdk/issues/4284 | XCM: Remove `require_weight_at_most` from Transact | 0 |
-<!-- LEADERBOARD:END -->
+## Developer Wishlist Leaderboard
+<!-- LEADERBOARD_DEV:START -->
+<!-- LEADERBOARD_DEV:END -->
+
+## User Wishlist Leaderboard
+<!-- LEADERBOARD_USER:START -->
+<!-- LEADERBOARD_USER:END -->
 
 ## Contributing
 We welcome contributions from everyone. Before contributing, please read our [CONTRIBUTING](CONTRIBUTING.md) guide.
