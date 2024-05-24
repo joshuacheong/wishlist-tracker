@@ -3,6 +3,18 @@
 This repository serves as a central hub for tracking community-driven feature requests for the Polkadot SDK. Our goal is to prioritize development based on the collective input of developers and users on Polkadot SDK.
 
 ## Developer Wishlist Leaderboard
+
+<a href="https://github.com/paritytech/polkadot-sdk/issues/3900">
+  <img src="https://img.shields.io/badge/Submit%20Wish-e6007a" alt="Submit Wish" align="left"> 
+</a>
+<a href="https://github.com/paritytech/polkadot-sdk/issues/new/choose">
+  <img src="https://img.shields.io/badge/New%20Issue-black" alt="New Issue" align="left">
+</a>
+<a href="https://github.com/paritytech/polkadot-sdk/issues/3900">
+  <img src="https://img.shields.io/badge/Vote-e6007a" alt="Vote"  align="right"> 
+</a>
+<br><br>
+
 <!-- LEADERBOARD_DEV:START -->
 | Feature Request | Summary | Votes |
 | --- | --- | --- |
@@ -16,6 +28,18 @@ This repository serves as a central hub for tracking community-driven feature re
 <!-- LEADERBOARD_DEV:END -->
 
 ## User Wishlist Leaderboard
+
+<a href="https://github.com/paritytech/polkadot-sdk/issues/3901">
+  <img src="https://img.shields.io/badge/Submit%20Wish-e6007a" alt="Submit Wish" align="left"> 
+</a>
+<a href="https://github.com/paritytech/polkadot-sdk/issues/new/choose">
+  <img src="https://img.shields.io/badge/New%20Issue-black" alt="New Issue" align="left">
+</a>
+<a href="https://github.com/paritytech/polkadot-sdk/issues/3901">
+  <img src="https://img.shields.io/badge/Vote-e6007a" alt="Vote"  align="right"> 
+</a>
+<br><br>
+
 <!-- LEADERBOARD_USER:START -->
 | Feature Request | Summary | Votes |
 | --- | --- | --- |
@@ -38,7 +62,7 @@ To make a wish, please comment on [#3900 if you are a developer](https://github.
 
 > I wish for `<issue-url>`
 
-Substitute `<issue-url>` with the URL of the GitHub issue that describes the feature you desire. If that issue doesn't exist [submit an issue](https://github.com/paritytech/polkadot-sdk/issues) to then add it to the wishlist.
+Substitute `<issue-url>` with the URL of the GitHub issue that describes the feature you desire. If that issue doesn't exist [create an issue](https://github.com/paritytech/polkadot-sdk/issues) to then add it to the wishlist.
 
 ## Vote on a Wish
 Simply head over to [#3900 if you are a developer](https://github.com/paritytech/polkadot-sdk/issues/3900) or [#3901 if you are a User](https://github.com/paritytech/polkadot-sdk/issues/3901), and just add a thumbs up 'like' emoji to the feature you resonate with!
