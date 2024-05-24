@@ -1,6 +1,6 @@
 from github import Github
 import re
-import os  # Import os module to access environment variables
+import os
 
 # Initialize GitHub client
 g = Github(os.getenv('GH_TOKEN'))  # Use the token securely
@@ -21,15 +21,17 @@ tracker_repo = g.get_repo("joshuacheong/wishlist-tracker")
 issue_number = 3900  # Change this to your issue number
 issue = repo.get_issue(number=issue_number)
 
-# Parse comments for wishes
+# Parse comments for wishes and count likes
 wishes = {}
 for comment in issue.get_comments():
     urls = pattern.findall(comment.body)
     for url in urls:
+        # Get the count of thumbs-up reactions for the comment
+        thumbs_up_count = sum(1 for reaction in comment.get_reactions() if reaction.content == '+1')
         if url in wishes:
-            wishes[url] += 1
+            wishes[url] += thumbs_up_count
         else:
-            wishes[url] = 1
+            wishes[url] = thumbs_up_count
 
 # Sort wishes by count
 sorted_wishes = sorted(wishes.items(), key=lambda x: x[1], reverse=True)
@@ -44,13 +46,14 @@ readme = tracker_repo.get_contents("README.md")
 current_readme_content = readme.decoded_content.decode()
 new_readme_content = leaderboard_section_pattern.sub(f"<!-- LEADERBOARD:START -->\n{md_table}<!-- LEADERBOARD:END -->", current_readme_content)
 
+# Print information for debugging
 print("sorted_wishes (to read) contents:", sorted_wishes)
 print("Readme (to edit) contents:", current_readme_content)
 print("new_readme_content (edited) contents:", new_readme_content)
 print("Readme SHA:", readme.sha)
 print("Readme Path:", readme.path)
 
-
+# Try updating the README
 try:
     tracker_repo.update_file(readme.path, "Update leaderboard", new_readme_content, readme.sha)
 except Exception as e:
