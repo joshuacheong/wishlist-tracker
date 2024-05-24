@@ -44,7 +44,8 @@ readme = tracker_repo.get_contents("README.md")
 current_readme_content = readme.decoded_content.decode()
 new_readme_content = leaderboard_section_pattern.sub(f"<!-- LEADERBOARD:START -->\n{md_table}<!-- LEADERBOARD:END -->", current_readme_content)
 
-print("Readme Path:", readme.path)
+print("sorted_wishes (to read) contents:", sorted_wishes)
+print("Readme (to edit) contents:", current_readme_content)
 print("Readme SHA:", readme.sha)
 print("Readme Path:", readme.path)
 
