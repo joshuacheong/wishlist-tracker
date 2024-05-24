@@ -65,7 +65,7 @@ To make a wish, please comment on [#3900 if you are a developer](https://github.
 Substitute `<issue-url>` with the URL of the GitHub issue that describes the feature you desire. If that issue doesn't exist [create an issue](https://github.com/paritytech/polkadot-sdk/issues) to then add it to the wishlist.
 
 ## Vote on a Wish
-Simply head over to [#3900 if you are a developer](https://github.com/paritytech/polkadot-sdk/issues/3900) or [#3901 if you are a User](https://github.com/paritytech/polkadot-sdk/issues/3901), and just add a thumbs up 'like' emoji to the feature you resonate with!
+Simply head over to [#3900 if you are a developer](https://github.com/paritytech/polkadot-sdk/issues/3900) or [#3901 if you are a User](https://github.com/paritytech/polkadot-sdk/issues/3901), and just add a thumbs up 'like' emoji (👍) to the feature you resonate with!
 
 ## Support or Contact
 Having trouble with our SDK? Check out our [documentation](https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/) or [submit an issue](https://github.com/paritytech/polkadot-sdk/issues) and we’ll help you sort it out.
