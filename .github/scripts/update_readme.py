@@ -46,8 +46,10 @@ new_readme_content = leaderboard_section_pattern.sub(f"<!-- LEADERBOARD:START --
 
 print("Readme Path:", readme.path)
 print("Readme SHA:", readme.sha)
+print("Readme Path:", readme.path)
+
 
 try:
-    repo.update_file(readme.path, "Update leaderboard", new_readme_content, readme.sha)
+    tracker_repo.update_file(readme.path, "Update leaderboard", new_readme_content, readme.sha)
 except Exception as e:
     print("Error updating file:", e)
