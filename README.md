@@ -13,7 +13,7 @@ This repository serves as a central hub for tracking community-driven feature re
 | https://github.com/paritytech/polkadot-sdk/issues/133 | Vision: Repository reorganization | 1 |
 | https://github.com/paritytech/polkadot-sdk/issues/3581 | [FRAME] Warn when using default `SubstrateWeights` in production | 1 |
 | https://github.com/paseo-network/paseo-action-submission/issues/103 | Poor DevEx | 1 |
-| https://github.com/paritytech/polkadot-sdk/issues/4284 | XCM: Remove `require_weight_at_most` from Transact | 0 |
+| https://github.com/paritytech/polkadot-sdk/issues/4284 | XCM: Remove `require_weight_at_most` from Transact | 1 |
 <!-- LEADERBOARD_DEV:END -->
 
 <a href="https://github.com/paritytech/polkadot-sdk/issues/3900">
