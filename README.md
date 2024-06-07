@@ -44,6 +44,7 @@ This repository serves as a central hub for tracking community-driven feature re
 | https://github.com/kodadot/nft-gallery/issues/9412 | Uncaught Error: Expected a valid key to convert, with length 1, 2, 4, 8, 32, 33 | 0 |
 | https://github.com/Phala-Network/website-nextjs/issues/78 | Uncaught Error: Expected a valid key to convert, with length 1, 2, 4, 8, 32, 33 | 0 |
 | https://github.com/paritytech/polkadot-sdk/issues/3977 | Change identity raw data values to be generic Get<u32> | 0 |
+| https://github.com/paritytech/polkadot-sdk/issues/3546 | Add new dispatchables to PalletXcm to allow remote locking  | 0 |
 <!-- LEADERBOARD_USER:END -->
 
 <a href="https://github.com/paritytech/polkadot-sdk/issues/3901">
