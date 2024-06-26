@@ -4,7 +4,7 @@ name: Update Leaderboard
 on:
   schedule:
     # Run every 3 hours
-    - cron:  '0 */3 * * *'
+    - cron:  '0 0 * * *'
   issue_comment:
     types: [created, edited]
 
