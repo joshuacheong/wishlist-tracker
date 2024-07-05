@@ -8,9 +8,9 @@ This repository serves as a central hub for tracking community-driven feature re
 | Feature Request | Summary | Votes |
 | --- | --- | --- |
 | https://github.com/paritytech/polkadot-sdk/issues/3594 | Subscribe-able runtime apis | 4 |
+| https://github.com/paritytech/polkadot-sdk/issues/133 | Vision: Repository reorganization | 2 |
 | https://github.com/paritytech/polkadot-sdk/issues/328 | Vision: Storage Deposits to be Ergonomic and Automatic | 2 |
 | https://github.com/paritytech/polkadot-sdk/issues/5 | Vision for cleaner substrate-node's developer-facing interface | 1 |
-| https://github.com/paritytech/polkadot-sdk/issues/133 | Vision: Repository reorganization | 1 |
 | https://github.com/paritytech/polkadot-sdk/issues/3581 | [FRAME] Warn when using default `SubstrateWeights` in production | 1 |
 | https://github.com/paseo-network/paseo-action-submission/issues/103 | Poor DevEx | 1 |
 | https://github.com/paritytech/polkadot-sdk/issues/4284 | XCM: Remove `require_weight_at_most` from Transact | 1 |
