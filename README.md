@@ -39,9 +39,9 @@ This repository serves as a central hub for tracking community-driven feature re
 | https://github.com/paritytech/polkadot-sdk/issues/454 | [NPoS] Nomination pools: Allow funds to be used for democracy | 9 |
 | https://github.com/paritytech/polkadot-sdk/issues/4090 | Add vestedTransfer for Assets on Asset Hub | 6 |
 | https://github.com/polkadot-js/extension/issues/1268 | Raw signing with polkadot.js and parity signer is not possible due to outdated polkadot.js extension version in Chrome and Firefox stores | 3 |
+| https://github.com/paritytech/polkadot-sdk/issues/5298 | `pallet-assets` sufficient assets ED should provide same benefits as DOT ED | 3 |
 | https://github.com/paritytech/polkadot-sdk/issues/266 | Vision: Meta Transaction | 2 |
 | https://github.com/polkadot-js/apps/issues/10285 | Update polkadot.js UI for coretime | 2 |
-| https://github.com/paritytech/polkadot-sdk/issues/5298 | `pallet-assets` sufficient assets ED should provide same benefits as DOT ED | 2 |
 | https://github.com/paritytech/polkadot-sdk/issues/352 | Add Recurring Payments to the Treasury pallet | 1 |
 | https://github.com/kodadot/nft-gallery/issues/9412 | Uncaught Error: Expected a valid key to convert, with length 1, 2, 4, 8, 32, 33 | 0 |
 | https://github.com/Phala-Network/website-nextjs/issues/78 | Uncaught Error: Expected a valid key to convert, with length 1, 2, 4, 8, 32, 33 | 0 |
